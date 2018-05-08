@@ -1,0 +1,371 @@
+EESchema Schematic File Version 2
+LIBS:alvaroferran
+LIBS:Motio-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L alvaroferran:BNO055 U401
+U 1 1 5AC4EA22
+P 5600 3400
+F 0 "U401" H 5400 3850 50  0000 C CNN
+F 1 "BNO055" H 5450 2950 50  0000 C CNN
+F 2 "" H 6750 2550 50  0001 C CNN
+F 3 "" H 6750 2550 50  0001 C CNN
+	1    5600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3300 6300 3300
+Wire Wire Line
+	6300 3200 6000 3200
+Wire Wire Line
+	6300 3600 6000 3600
+$Comp
+L alvaroferran:R0402 R?
+U 1 1 5AC5BBED
+P 6300 3750
+F 0 "R?" H 6150 3800 50  0000 L CNN
+F 1 "10k" H 6100 3700 50  0000 L CNN
+F 2 "" V 6230 3750 50  0001 C CNN
+F 3 "" H 6300 3750 50  0001 C CNN
+	1    6300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:R0402 R?
+U 1 1 5AC5BC49
+P 6450 3650
+F 0 "R?" H 6500 3600 50  0000 L CNN
+F 1 "10k" H 6450 3500 50  0000 L CNN
+F 2 "" V 6380 3650 50  0001 C CNN
+F 3 "" H 6450 3650 50  0001 C CNN
+	1    6450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:R0402 R?
+U 1 1 5AC5BC71
+P 6600 3550
+F 0 "R?" H 6670 3596 50  0000 L CNN
+F 1 "10k" H 6670 3505 50  0000 L CNN
+F 2 "" V 6530 3550 50  0001 C CNN
+F 3 "" H 6600 3550 50  0001 C CNN
+	1    6600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3500 6450 3500
+Wire Wire Line
+	6000 3400 6600 3400
+Wire Wire Line
+	6450 4000 6450 3900
+Wire Wire Line
+	5200 3400 4900 3400
+Wire Wire Line
+	4900 3500 5200 3500
+Wire Wire Line
+	4900 3600 5200 3600
+Text HLabel 6300 3200 2    50   Input ~ 0
+SCL
+Text HLabel 6300 3300 2    50   Input ~ 0
+SDA
+Text HLabel 4900 3400 0    50   Input ~ 0
+INT
+Text Label 4900 3500 0    50   ~ 0
+XIN
+Text Label 4900 3600 0    50   ~ 0
+XOUT
+$Comp
+L alvaroferran:C0402 C?
+U 1 1 5AC5E86A
+P 5100 3850
+F 0 "C?" H 5215 3896 50  0000 L CNN
+F 1 "100nF" H 5215 3805 50  0000 L CNN
+F 2 "" H 5138 3700 50  0001 C CNN
+F 3 "" H 5100 3850 50  0001 C CNN
+	1    5100 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:3.3V #PWR?
+U 1 1 5AC5E91D
+P 5000 2900
+F 0 "#PWR?" H 5000 2750 50  0001 C CNN
+F 1 "3.3V" H 5015 3073 50  0000 C CNN
+F 2 "" H 5000 2900 50  0001 C CNN
+F 3 "" H 5000 2900 50  0001 C CNN
+	1    5000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:GND #PWR?
+U 1 1 5AC5E98E
+P 6450 4000
+F 0 "#PWR?" H 6450 3750 70  0001 C CNN
+F 1 "GND" H 6455 3827 50  0000 C CNN
+F 2 "" H 6450 4000 50  0001 C CNN
+F 3 "" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:GND #PWR?
+U 1 1 5AC5E9C4
+P 6100 4000
+F 0 "#PWR?" H 6100 3750 70  0001 C CNN
+F 1 "GND" H 6105 3827 50  0000 C CNN
+F 2 "" H 6100 4000 50  0001 C CNN
+F 3 "" H 6100 4000 50  0001 C CNN
+	1    6100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3700 6100 3700
+Wire Wire Line
+	6100 3700 6100 4000
+Wire Wire Line
+	5100 3700 5200 3700
+$Comp
+L alvaroferran:GND #PWR?
+U 1 1 5AC5EFDC
+P 5100 4000
+F 0 "#PWR?" H 5100 3750 70  0001 C CNN
+F 1 "GND" H 5105 3827 50  0000 C CNN
+F 2 "" H 5100 4000 50  0001 C CNN
+F 3 "" H 5100 4000 50  0001 C CNN
+	1    5100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3200 5000 3200
+Wire Wire Line
+	4900 3300 5200 3300
+$Comp
+L alvaroferran:3.3V #PWR?
+U 1 1 5AC6062D
+P 3700 2900
+F 0 "#PWR?" H 3700 2750 50  0001 C CNN
+F 1 "3.3V" H 3715 3073 50  0000 C CNN
+F 2 "" H 3700 2900 50  0001 C CNN
+F 3 "" H 3700 2900 50  0001 C CNN
+	1    3700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:GND #PWR?
+U 1 1 5AC60644
+P 3700 4000
+F 0 "#PWR?" H 3700 3750 70  0001 C CNN
+F 1 "GND" H 3705 3827 50  0000 C CNN
+F 2 "" H 3700 4000 50  0001 C CNN
+F 3 "" H 3700 4000 50  0001 C CNN
+	1    3700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:C0402 C?
+U 1 1 5AC6065B
+P 3700 3450
+F 0 "C?" H 3815 3496 50  0000 L CNN
+F 1 "120nF" H 3815 3405 50  0000 L CNN
+F 2 "" H 3738 3300 50  0001 C CNN
+F 3 "" H 3700 3450 50  0001 C CNN
+	1    3700 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3300 3700 2900
+Wire Wire Line
+	3700 3600 3700 4000
+$Comp
+L alvaroferran:3.3V #PWR?
+U 1 1 5AC6109E
+P 3200 2900
+F 0 "#PWR?" H 3200 2750 50  0001 C CNN
+F 1 "3.3V" H 3215 3073 50  0000 C CNN
+F 2 "" H 3200 2900 50  0001 C CNN
+F 3 "" H 3200 2900 50  0001 C CNN
+	1    3200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:GND #PWR?
+U 1 1 5AC610A4
+P 3200 4000
+F 0 "#PWR?" H 3200 3750 70  0001 C CNN
+F 1 "GND" H 3205 3827 50  0000 C CNN
+F 2 "" H 3200 4000 50  0001 C CNN
+F 3 "" H 3200 4000 50  0001 C CNN
+	1    3200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:C0402 C?
+U 1 1 5AC610AA
+P 3200 3450
+F 0 "C?" H 3315 3496 50  0000 L CNN
+F 1 "100nF" H 3315 3405 50  0000 L CNN
+F 2 "" H 3238 3300 50  0001 C CNN
+F 3 "" H 3200 3450 50  0001 C CNN
+	1    3200 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3300 3200 2900
+Wire Wire Line
+	3200 3600 3200 4000
+$Comp
+L alvaroferran:3.3V #PWR?
+U 1 1 5AC61478
+P 2700 2900
+F 0 "#PWR?" H 2700 2750 50  0001 C CNN
+F 1 "3.3V" H 2715 3073 50  0000 C CNN
+F 2 "" H 2700 2900 50  0001 C CNN
+F 3 "" H 2700 2900 50  0001 C CNN
+	1    2700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:GND #PWR?
+U 1 1 5AC6147E
+P 2700 4000
+F 0 "#PWR?" H 2700 3750 70  0001 C CNN
+F 1 "GND" H 2705 3827 50  0000 C CNN
+F 2 "" H 2700 4000 50  0001 C CNN
+F 3 "" H 2700 4000 50  0001 C CNN
+	1    2700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L alvaroferran:C0402 C?
+U 1 1 5AC61484
+P 2700 3450
+F 0 "C?" H 2815 3496 50  0000 L CNN
+F 1 "6.8nF" H 2815 3405 50  0000 L CNN
+F 2 "" H 2738 3300 50  0001 C CNN
+F 3 "" H 2700 3450 50  0001 C CNN
+	1    2700 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3300 2700 2900
+Wire Wire Line
+	2700 3600 2700 4000
+$Comp
+L device:Crystal Y?
+U 1 1 5AC620CE
+P 8200 3350
+F 0 "Y?" V 8154 3481 50  0000 L CNN
+F 1 "32.768kHz" V 8245 3481 50  0000 L CNN
+F 2 "" H 8200 3350 50  0001 C CNN
+F 3 "" H 8200 3350 50  0001 C CNN
+	1    8200 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 3200 8200 3100
+Wire Wire Line
+	8200 3100 7900 3100
+Wire Wire Line
+	7900 3600 8200 3600
+Wire Wire Line
+	8200 3600 8200 3500
+$Comp
+L alvaroferran:C0402 C?
+U 1 1 5AC62CBB
+P 8450 3600
+F 0 "C?" V 8300 3500 50  0000 L CNN
+F 1 "22pF" V 8300 3650 50  0000 L CNN
+F 2 "" H 8488 3450 50  0001 C CNN
+F 3 "" H 8450 3600 50  0001 C CNN
+	1    8450 3600
+	0    1    -1   0   
+$EndComp
+$Comp
+L alvaroferran:C0402 C?
+U 1 1 5AC62D79
+P 8450 3100
+F 0 "C?" V 8600 3000 50  0000 L CNN
+F 1 "22pF" V 8600 3150 50  0000 L CNN
+F 2 "" H 8488 2950 50  0001 C CNN
+F 3 "" H 8450 3100 50  0001 C CNN
+	1    8450 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8300 3100 8200 3100
+Connection ~ 8200 3100
+Wire Wire Line
+	8300 3600 8200 3600
+Connection ~ 8200 3600
+Text Label 7900 3100 0    50   ~ 0
+XIN
+Text Label 7900 3600 0    50   ~ 0
+XOUT
+$Comp
+L alvaroferran:GND #PWR?
+U 1 1 5AC644D8
+P 8900 3800
+F 0 "#PWR?" H 8900 3550 70  0001 C CNN
+F 1 "GND" H 8905 3627 50  0000 C CNN
+F 2 "" H 8900 3800 50  0001 C CNN
+F 3 "" H 8900 3800 50  0001 C CNN
+	1    8900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3600 8900 3800
+Wire Wire Line
+	8600 3600 8900 3600
+Wire Wire Line
+	8900 3600 8900 3100
+Wire Wire Line
+	8600 3100 8900 3100
+Connection ~ 8900 3600
+Wire Notes Line
+	9100 4100 7700 4100
+Wire Notes Line
+	7700 4100 7700 2800
+Wire Notes Line
+	7700 2800 9100 2800
+Wire Notes Line
+	9100 2800 9100 4100
+Text Notes 7700 4600 0    50   ~ 0
+Optional:\nBy default the internal oscillator is \nselected, to use the external one \nset CLK_SEL bit in the SYSTEM_TRIGGER \nregister.
+Wire Wire Line
+	6300 3900 6450 3900
+Connection ~ 6450 3900
+Wire Wire Line
+	6450 3900 6450 3800
+Wire Wire Line
+	6450 3900 6600 3900
+Wire Wire Line
+	6600 3900 6600 3700
+Wire Wire Line
+	5200 3100 5100 3100
+Wire Wire Line
+	4900 3000 4900 3300
+Wire Wire Line
+	5000 3000 4900 3000
+Wire Wire Line
+	5000 2900 5000 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	5000 3000 5000 3200
+Wire Wire Line
+	5100 3100 5100 3000
+Wire Wire Line
+	5000 3000 5100 3000
+$EndSCHEMATC
