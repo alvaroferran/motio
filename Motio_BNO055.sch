@@ -70,7 +70,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3400 6600 3400
 Wire Wire Line
-	6450 4000 6450 3900
+	6450 3800 6450 4000
 Wire Wire Line
 	5200 3400 4900 3400
 Wire Wire Line
@@ -149,7 +149,7 @@ F 3 "" H 5100 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 3200 5000 3200
+	5000 3200 5200 3200
 Wire Wire Line
 	4900 3300 5200 3300
 $Comp
@@ -277,9 +277,9 @@ $EndComp
 Wire Wire Line
 	8200 3200 8200 3100
 Wire Wire Line
-	8200 3100 7900 3100
+	7900 3100 8300 3100
 Wire Wire Line
-	7900 3600 8200 3600
+	7900 3600 8300 3600
 Wire Wire Line
 	8200 3600 8200 3500
 $Comp
@@ -304,11 +304,7 @@ F 3 "" H 8450 3100 50  0001 C CNN
 	1    8450 3100
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	8300 3100 8200 3100
 Connection ~ 8200 3100
-Wire Wire Line
-	8300 3600 8200 3600
 Connection ~ 8200 3600
 Text Label 7900 3100 0    50   ~ 0
 XIN
@@ -326,11 +322,9 @@ F 3 "" H 8900 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 3600 8900 3800
+	8900 3100 8900 3800
 Wire Wire Line
 	8600 3600 8900 3600
-Wire Wire Line
-	8900 3600 8900 3100
 Wire Wire Line
 	8600 3100 8900 3100
 Connection ~ 8900 3600
@@ -345,12 +339,8 @@ Wire Notes Line
 Text Notes 7700 4600 0    50   ~ 0
 Optional:\nBy default the internal oscillator is \nselected, to use the external one \nset CLK_SEL bit in the SYSTEM_TRIGGER \nregister.
 Wire Wire Line
-	6300 3900 6450 3900
+	6300 3900 6600 3900
 Connection ~ 6450 3900
-Wire Wire Line
-	6450 3900 6450 3800
-Wire Wire Line
-	6450 3900 6600 3900
 Wire Wire Line
 	6600 3900 6600 3700
 Wire Wire Line
@@ -358,14 +348,12 @@ Wire Wire Line
 Wire Wire Line
 	4900 3000 4900 3300
 Wire Wire Line
-	5000 3000 4900 3000
+	4900 3000 5100 3000
 Wire Wire Line
-	5000 2900 5000 3000
+	5000 2900 5000 3200
 Connection ~ 5000 3000
 Wire Wire Line
-	5000 3000 5000 3200
-Wire Wire Line
-	5100 3100 5100 3000
-Wire Wire Line
-	5000 3000 5100 3000
+	5100 3000 5100 3100
+Text Notes 2450 4750 0    100  ~ 0
+IMU
 $EndSCHEMATC
